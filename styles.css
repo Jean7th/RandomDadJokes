@@ -1,0 +1,67 @@
+/* common styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+content
+#content {
+    position: relative;
+}
+#content img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 40%;
+}
+
+/* body */
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center; /* horizontally center */
+    align-items: center; /* vertically center */
+    text-align: center;
+}
+
+/* container */
+.container {
+    width: 40%;
+    padding: 50px 20px;
+    background-color: #fff;
+    border-radius: 50px;
+    border: 10px solid #000000;
+}
+
+/* h1 */
+h1 {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* .joke-text */
+.joke-text {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    font-family: monospace;
+}
+
+/* buttons */
+.btn {
+    padding: 10px 20px; /* top-bottom left-right */
+    margin: 0 5px; /* top-bottom left-right */
+    font-size: 0.99rem;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+}
+
+.btn:hover {
+    cursor: pointer; /* hand symbol */
+}
